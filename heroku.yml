@@ -3,7 +3,6 @@ build:
     web: Dockerfile
 run:
   web: npm run start
-release:
-  image: web
+
 
 
