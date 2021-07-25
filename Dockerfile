@@ -1,9 +1,9 @@
-FROM node:12.19.0-alpine
+FROM node:12.19.0
 
-WORKDIR /usr/src/App
+WORKDIR /usr/src/app
 
 COPY . ./
 
 RUN npm install
 
-CMD "npm run start"
+CMD "npm start"
